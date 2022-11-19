@@ -26,7 +26,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .menu:hover {
   color: var(--brand-color);
@@ -66,7 +66,7 @@ ul {
   color: #ececec;
 }
 
-.primary {
+.primarys {
   background-color: var(--bg-color);
 }
 .primary-title {
@@ -89,6 +89,7 @@ ul {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  background-color: #f5f4fa;
 }
 .primary-bg:hover {
   background-color: var(--brand-color);
@@ -159,14 +160,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.contact-mail {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
+.contact-mail,
 .contact-phone {
   font-style: normal;
   font-size: 14px;
@@ -175,6 +169,28 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.portfolio {
+
+.portfolios {
   background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #eeeeee;
+}
+
+.filters {
+  color: var(--text-color);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-bg {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.filter-bg:hover {
+  background-color: var(--brand-color);
+  color: #ffffff;
 }
