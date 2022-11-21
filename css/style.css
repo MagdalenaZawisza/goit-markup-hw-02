@@ -83,6 +83,7 @@ body {
   color: var(--white-color);
 }
 .primary-bg {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
