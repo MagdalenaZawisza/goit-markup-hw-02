@@ -99,7 +99,7 @@ body {
   color: var(--white-color);
 }
 
-.feature.title: {
+.feature.title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -185,17 +185,17 @@ body {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
 }
-.filters {
-  color: var(--text-color);
+.filter {
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .filter-bg {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--text-color);
   background-color: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
